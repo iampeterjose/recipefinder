@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { getAllRecipes } from "../api/recipe";
 import type { Recipe } from "../api/recipe";
-import { Link } from "react-router-dom";
 import RecipesListCard from "../components/RecipesListCard";
 
 // Extract filters from recipe attributes

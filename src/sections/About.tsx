@@ -1,5 +1,3 @@
-import React from "react";
-
 function About () {
     return (
         <section id="about" className="relative bg-gradient-to-br from-indigo-50 via-white to-indigo-100 py-24 overflow-hidden">

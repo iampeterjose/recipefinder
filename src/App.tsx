@@ -5,7 +5,7 @@ import Footer from "./sections/Footer"
 import Hero from "./sections/Hero"
 import RecipeList from "./sections/RecipeList"
 import TopRecipes from "./sections/TopRecipes"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 
 function App() {
 

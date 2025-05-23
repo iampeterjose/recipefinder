@@ -2,7 +2,6 @@ import { useEffect, useState, useRef } from 'react';
 import { getTopRecipes } from '../api/recipe'; 
 import type { Recipe } from '../api/recipe';
 import TopRecipesCard from '../components/TopRecipesCard';
-import { Link } from 'react-router-dom';
 
 function TopRecipes() {
   const [recipes, setRecipes] = useState<Recipe[]>([]);

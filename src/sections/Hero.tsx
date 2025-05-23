@@ -1,5 +1,3 @@
-import React from "react";
-
 function Hero() {
     return (
         <section className="relative overflow-hidden bg-gradient-to-br from-indigo-50 via-white to-indigo-100 py-24 px-4">
