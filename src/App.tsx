@@ -1,7 +1,6 @@
 import RecipeDetails from "./pages/RecipeDetails"
 import About from "./sections/About"
 import Contact from "./sections/Contact"
-import Footer from "./sections/Footer"
 import Hero from "./sections/Hero"
 import RecipeList from "./sections/RecipeList"
 import TopRecipes from "./sections/TopRecipes"
@@ -20,7 +19,6 @@ function App() {
             <RecipeList />
             <Contact />
             <About />
-            <Footer />
           </>
         } 
       />
